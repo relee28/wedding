@@ -82,30 +82,29 @@ export function usePrivateInfo() {
         const fetchData = async (): Promise<PrivateInfo> => {
             return {
                 groom: {
-                    name: '김철수',
-                    firstName: '철수',
+                    name: '박철휘',
+                    firstName: '철휘',
                     phone: '010-1234-5678',
                     parents: {
-                        mother: { name: '이영희', phone: '010-1111-2222' },
+                        mother: { name: '', phone: '' },
                         relation: '아들'
                     }
                 },
                 bride: {
-                    name: '박지민',
-                    firstName: '지민',
-                    phone: '010-9876-5432',
+                    name: '이다운',
+                    firstName: '다운',
+                    phone: '010-4664-7562',
                     parents: {
-                        father: { name: '박기둥', phone: '010-3333-4444' },
+                        father: { name: '이인섭', phone: '010-9096-7562' },
                         relation: '딸'
                     }
                 },
                 accounts: {
                     groom: [
-                        { bank: '우리은행', name: '이영희', num: '123-456-789012' },
-                        { bank: '기업은행', name: '김철수', num: '987-654-321098' }
+                        { bank: '은행', name: '박철휘', num: '3333-22-1111111' }
                     ],
                     bride: [
-                        { bank: '카카오뱅크', name: '박지민', num: '3333-22-1111111' }
+                        { bank: '은행', name: '이다운', num: '3333-22-1111111' }
                     ]
                 },
                 images: {

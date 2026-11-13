@@ -144,7 +144,7 @@ const ThankYou: React.FC<ThankYouProps> = ({ onModalStateChange }) => {
 						variants={itemVariants}
 						className="text-2xl md:text-3xl text-white font-myeongjo mb-8 leading-tight tracking-tight"
 					>
-						{weddingData.common.groom.firstName} <span className="text-lg align-middle mx-1 opacity-80">💍</span> {weddingData.common.bride.firstName}
+						철휘 <span className="text-lg align-middle mx-1 opacity-80">💍</span> 다운
 					</motion.h2>
 
 					{/* 감사 메시지 */}
