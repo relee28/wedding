@@ -104,7 +104,7 @@ export function usePrivateInfo() {
                         { bank: '은행', name: '박철휘', num: '3333-22-1111111' }
                     ],
                     bride: [
-                        { bank: '은행', name: '이다운', num: '3333-22-1111111' }
+                        { bank: '은행', name: '이다운', num: '3333-22-111111' }
                     ]
                 },
                 images: {
