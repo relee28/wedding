@@ -202,19 +202,21 @@ const Intro: React.FC = () => {
                                             </a>
                                         </div>
                                     </div>
-                                    <div className="flex items-center justify-between py-2 border-b border-gray-600">
+<div className="flex items-center justify-between py-2 border-b border-gray-600">
                                         <div className="flex items-center gap-3">
                                             <span className="text-sm text-gray-400 w-20">신랑 어머니</span>
                                             <span className="text-white">{groom.parents.mother.name}</span>
                                         </div>
-                                        <div className="flex gap-3">
-                                            <a href={`tel:${groom.parents.mother.phone}`} className="text-white/80 hover:text-white">
-                                                <i className="fa-solid fa-phone"></i>
-                                            </a>
-                                            <a href={`sms:${groom.parents.mother.phone}`} className="text-white/80 hover:text-white">
-                                                <i className="fa-solid fa-envelope"></i>
-                                            </a>
-                                        </div>
+                                        {groom.parents.mother.phone && (
+                                            <div className="flex gap-3">
+                                                <a href={`tel:${groom.parents.mother.phone}`} className="text-white/80 hover:text-white">
+                                                    <i className="fa-solid fa-phone"></i>
+                                                </a>
+                                                <a href={`sms:${groom.parents.mother.phone}`} className="text-white/80 hover:text-white">
+                                                    <i className="fa-solid fa-envelope"></i>
+                                                </a>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>
