@@ -86,7 +86,7 @@ export function usePrivateInfo() {
                     firstName: '철휘',
                     phone: '010-1234-5678',
                     parents: {
-                        mother: { name: '', phone: '' },
+                        mother: { name: '김수자', phone: '' },
                         relation: '아들'
                     }
                 },
